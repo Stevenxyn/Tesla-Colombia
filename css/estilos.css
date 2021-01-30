@@ -1,0 +1,73 @@
+  body{           /*aca se selecciona el cuerpo de la pagina*/
+    background:rgb(22, 22, 22);
+    margin: 70px;
+  }
+
+
+h1{
+    text-align:center;
+    color: white;
+}
+
+
+  h2,h3,p{ /*Titulos, parrafos de la pagina unicamente*/
+    text-align: center;
+    color: white;
+  }
+
+
+  .logoarriba{
+    height: 30px;
+    margin-bottom: -60px;   
+  }
+
+  .nav-enlace{ /*Barra de navegacion*/
+    
+    background:#3d1515;
+    text-align: center;
+    color: white;
+    padding:10px 30px ;
+    text-decoration: none;
+    
+
+  }
+
+  .nav-enlace:hover{ /*cambio de color al pasar por encima*/
+    background: rgb(197, 121, 121);
+
+  }
+  nav{
+      background:black ;
+      padding: 20px;
+  }
+
+  .listas,.card{ /*Metodos de compra Tesla card*/
+    color: white;
+    background:#3d1515
+   
+    
+  }
+
+  div,#row,.contact_form,.card-title,.card-text{ /*Fuente de letra de metodos de compra card*/
+  color:white;
+
+  }
+
+
+  .slide{
+      margin-top:20px;
+  }
+
+  .slide img{
+      height: none;
+      
+  }
+
+  footer{
+      text-align: center;
+      color: gainsboro;
+  }
+
+
+
+
