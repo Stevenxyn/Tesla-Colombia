@@ -1,71 +1,74 @@
   body{           /*aca se selecciona el cuerpo de la pagina*/
-    background:rgb(22, 22, 22);
+    background:rgb(19, 18, 18);
     margin: 70px;
+    font-family:monospace;
+    font-size:larger;
   }
 
-
-h1{
-    text-align:center;
-    color: white;
-}
-
-
-  h2,h3,p{ /*Titulos, parrafos de la pagina unicamente*/
+  h1,h2,h3,p{ /*Titulos, parrafos de la pagina unicamente*/
     text-align: center;
-    color: white;
+    color:rgb(230, 225, 225);
   }
 
+  /* NAVEGACION */
 
-  .logoarriba{
-    height: 30px;
-    margin-bottom: -60px;   
+  .navegacion{ /*el fondo*/
+  background: #3d1515;
+  
   }
 
-  .nav-enlace{ /*Barra de navegacion*/
-    
-    background:#3d1515;
-    text-align: center;
-    color: white;
-    padding:10px 30px ;
+  .navegacion ul  { /*navegacion letras*/
+    margin:0;
     text-decoration: none;
-    
-
+    padding: 0;
   }
 
-  .nav-enlace:hover{ /*cambio de color al pasar por encima*/
-    background: rgb(197, 121, 121);
+  .navegacion ul li{ /*Barra de navegacion el orden*/
+    display: inline-block;
+  }
 
+  .navegacion  ul li a { /*navegacion botones*/
+    color: white;
+    text-decoration: none;
+    padding: 30px 40px;
+    display: block;
+    float: right;
   }
-  nav{
-      background:black ;
-      padding: 20px;
+
+  .navegacion ul li a:hover{ /*cuando pasamos el cursor  */
+    background:#a39e9e;
   }
+
+  img{
+    width: 70px;
+    padding: 10px;
+    float:left ;
+    margin: 15px;
+  }
+
+    /* FIN NAVEGACION*/
 
   .listas,.card{ /*Metodos de compra Tesla card*/
     color: white;
-    background:#3d1515
+    background:#3d1515;
    
     
   }
 
-  div,#row,.contact_form,.card-title,.card-text{ /*Fuente de letra de metodos de compra card*/
+  
+
+  .contact_form,.card-title,.card-text{ /*Fuente de letra de metodos de compra card*/
   color:white;
 
   }
 
-
-  .slide{
-      margin-top:20px;
-  }
-
-  .slide img{
-      height: none;
-      
-  }
-
-  footer{
+  footer{ /*fin de pagina*/
       text-align: center;
-      color: gainsboro;
+      color: rgb(255, 250, 250);
+  }
+
+  .contact_form,.row{ /* formulario de contacto*/
+    color: rgb(255, 255, 255);
   }
 
 
